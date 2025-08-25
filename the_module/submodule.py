@@ -2,7 +2,7 @@
 import sys, os
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).parents[1]))
+# sys.path.append(str(Path(__file__).parents[1]))
 from another_module.another_sub import another_sub
 from enduro import long_running_task
 
